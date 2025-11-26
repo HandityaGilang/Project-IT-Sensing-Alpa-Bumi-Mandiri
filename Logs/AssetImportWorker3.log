@@ -1,0 +1,875 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/staging' branch; Version is '6000.2.13f1 (abdb44fca7f7) revision 11262788'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 16222 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-HP" at "2025-11-26T03:22:08.8258605Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-11-26T03:22:08Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.13f1-x86_64\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+E:/Projek IT Sensing/Prototype Test 2
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+64102
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: E:/Projek IT Sensing/Prototype Test 2
+E:/Projek IT Sensing/Prototype Test 2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19804]  Target information:
+
+Player connection [19804]  * "[IP] 192.168.1.144 [Port] 0 [Flags] 2 [Guid] 2457558423 [EditorId] 2457558423 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5GQPUDL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [19804] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [19804] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 104.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.13f1 (abdb44fca7f7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.13f1-x86_64/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Projek IT Sensing/Prototype Test 2/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 630 (ID=0x3e92)
+    Vendor:   Intel
+    VRAM:     8111 MB
+    Driver:   30.0.101.1339
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1-x86_64/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1-x86_64/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1-x86_64/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56308
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.13f1-x86_64/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.017732 seconds.
+- Loaded All Assemblies, in  1.883 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.841 seconds
+Domain Reload Profiling: 2720ms
+	BeginReloadAssembly (1120ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (167ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (125ms)
+	LoadAllAssembliesAndSetupDomain (438ms)
+		LoadAssemblies (1114ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (434ms)
+			TypeCache.Refresh (431ms)
+				TypeCache.ScanAssembly (392ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (841ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (744ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (112ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (172ms)
+			ProcessInitializeOnLoadAttributes (329ms)
+			ProcessInitializeOnLoadMethodAttributes (121ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.17.4'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-HP"
+[Licensing::IpcConnector] LicenseClient-HP channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-HP-6000.2.13" at "2025-11-26T03:22:14.3777101Z"
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              b85fcca01cb5440ba581eb8474f984e4
+  Correlation Id:          2d7efbf334eed09159b6085a3e8c36ab
+  External correlation Id: 2866341834617743863
+  Machine Id:              79xrHUfEI+wpUoeJ1/Oosi+3ogs=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-HP-6000.2.13" (connect: 0.00s, validation: 0.00s, handshake: 3.55s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-HP-6000.2.13-notifications" at "2025-11-26T03:22:17.9332017Z"
+[Licensing::Module] Licensing Background thread has ended after 9.11s
+[Licensing::Module] Licensing is initialized (took 4.00s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18967485101080-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  5.666 seconds
+Refreshing native plugins compatible for Editor in 3.41 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.288 seconds
+Domain Reload Profiling: 6950ms
+	BeginReloadAssembly (4310ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (1214ms)
+		LoadAssemblies (993ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (401ms)
+			TypeCache.Refresh (289ms)
+				TypeCache.ScanAssembly (268ms)
+			BuildScriptInfoCaches (95ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1289ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1092ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (234ms)
+			ProcessInitializeOnLoadAttributes (758ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 2.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4959 unused Assets / (1.4 MB). Loaded Objects now: 5468.
+Memory consumption went from 91.7 MB to 90.3 MB.
+Total: 9.075400 ms (FindLiveObjects: 0.619200 ms CreateObjectMapping: 0.640800 ms MarkObjects: 6.206600 ms  DeleteObjects: 1.607600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 77983.242433 seconds.
+  path: Assets/UI/Warna/adsadwd.png
+  artifactKey: Guid(7e0ec980e215edf4d918fae35bb0b2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Warna/adsadwd.png using Guid(7e0ec980e215edf4d918fae35bb0b2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee4586f8b049495babc775b275896448') in 0.2944465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/UI/Warna/search.png
+  artifactKey: Guid(f48dfa62e08536e4e885a2a73bed4d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Warna/search.png using Guid(f48dfa62e08536e4e885a2a73bed4d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7a32ce3e23a29f6f4c56adbfebda4c2') in 0.0266295 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/UI/Warna/pos_data_viewer.png
+  artifactKey: Guid(fb1e02a9dd053ca42a8ea8adf034de6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Warna/pos_data_viewer.png using Guid(fb1e02a9dd053ca42a8ea8adf034de6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92abd4f5d5998bcaee08d2275637bc90') in 0.0276945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/UI/Warna/minus.png
+  artifactKey: Guid(0b29b53ed08ed7f4ba36d2820fe6c723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Warna/minus.png using Guid(0b29b53ed08ed7f4ba36d2820fe6c723) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd72e0ae049876674cb976e99c2e117bf') in 0.0274872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/UI/Warna/dislocation.png
+  artifactKey: Guid(4db6e2ab42834dd44950ea75832a099a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Warna/dislocation.png using Guid(4db6e2ab42834dd44950ea75832a099a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c01cb66b0df0aa34219fe017509ea519') in 0.0472096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/UI/Warna/edit_drawing.png
+  artifactKey: Guid(e9f3a8bae8c405642891bcd5d0faab4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Warna/edit_drawing.png using Guid(e9f3a8bae8c405642891bcd5d0faab4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33e26fc66263c7f73270594e9caeed24') in 0.0331561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/UI/Warna/designer.png
+  artifactKey: Guid(b0f081e6571a99a4eb72a24cbd0038a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Warna/designer.png using Guid(b0f081e6571a99a4eb72a24cbd0038a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c76aec3dce32c886a1fe3fcf770f755') in 0.0372964 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/UI/Warna/static_processing.png
+  artifactKey: Guid(ada2129e330aff44091fab0021265ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Warna/static_processing.png using Guid(ada2129e330aff44091fab0021265ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a476c2dfcac4f73f5fe74f3b6b40cff') in 0.0305206 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/UI/Warna/profile-icon.jpg
+  artifactKey: Guid(7513d49a569f9fa4b88481ba636366b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Warna/profile-icon.jpg using Guid(7513d49a569f9fa4b88481ba636366b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d1f5ef9f3dd9ef8243109aff9659841') in 0.0250727 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/UI/Warna/fitur2.png
+  artifactKey: Guid(9ca07e6476a3f3c4b935cd64259d48b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Warna/fitur2.png using Guid(9ca07e6476a3f3c4b935cd64259d48b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c6d9930ee756015a892c87c77f2658d') in 0.026927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/UI/Warna/analytics.png
+  artifactKey: Guid(63e5a5f9194b9e449bdaa2b02f3ab595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Warna/analytics.png using Guid(63e5a5f9194b9e449bdaa2b02f3ab595) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21c2000e594f3916ba0102aba84f60c8') in 0.0297464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/UI/Warna/calculator.png
+  artifactKey: Guid(4cc91837e6164e04c98ee2c2763bf28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Warna/calculator.png using Guid(4cc91837e6164e04c98ee2c2763bf28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0e1704a7b31368952f1e8066c487b9f') in 0.0321607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/UI/Warna/table.png
+  artifactKey: Guid(52b970f04f5a09d41bdb68014be5eb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Warna/table.png using Guid(52b970f04f5a09d41bdb68014be5eb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a943cc0d0fa8b57f08ac3e2b9e873deb') in 0.0290717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/UI/Warna/create_aoi.png
+  artifactKey: Guid(da08f335d2ca9194c93b1b336a380543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Warna/create_aoi.png using Guid(da08f335d2ca9194c93b1b336a380543) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce608525c4a9a3c3ca7fa2c2c5c1c27c') in 0.0309412 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/UI/Warna/open-source.png
+  artifactKey: Guid(fa22b53d76ddaac4a9ff53bdd18a7165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Warna/open-source.png using Guid(fa22b53d76ddaac4a9ff53bdd18a7165) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df73eedfff7f687f862269a6b4cfe936') in 0.0324299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/UI/Warna/planet-earth.png
+  artifactKey: Guid(d1627969d27728a46adf48c56a0184f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Warna/planet-earth.png using Guid(d1627969d27728a46adf48c56a0184f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6424359342762516409526afbb7991b7') in 0.0253287 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/UI/Warna/techno.png
+  artifactKey: Guid(fe75fbb9772b68542bbdf90127b5494c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Warna/techno.png using Guid(fe75fbb9772b68542bbdf90127b5494c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05e31a664512a8c74581da4abff880e6') in 0.0643944 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/UI/Warna/prism.png
+  artifactKey: Guid(845340a6563a7d84a9357a805086abf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Warna/prism.png using Guid(845340a6563a7d84a9357a805086abf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '086eeda07a41fb30338da1bf6259e6b5') in 0.0307146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/UI/Warna/location.png
+  artifactKey: Guid(5638b05539175ce4bbe4ac3cc4e48e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Warna/location.png using Guid(5638b05539175ce4bbe4ac3cc4e48e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d5bd68c01f7e2c5df60193d09ec25a9') in 0.0350855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/UI/Warna/play.png
+  artifactKey: Guid(4af2f214da171384c9028b4cd40ecae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Warna/play.png using Guid(4af2f214da171384c9028b4cd40ecae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ff741638df6738f08421ddc0ba72a5a') in 0.0277274 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/UI/Warna/geotagging.png
+  artifactKey: Guid(97175e887006ea24f9cf0139a1e68260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Warna/geotagging.png using Guid(97175e887006ea24f9cf0139a1e68260) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae6ca522f97fa3cddd4f201c24a63576') in 0.0257329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/UI/Warna/fitur1.png
+  artifactKey: Guid(1d6c322c175933c48a73d5107e636c0e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/Warna/fitur1.png using Guid(1d6c322c175933c48a73d5107e636c0e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e76e87d4a0f185008cbac06272a34449') in 0.2951241 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/UI/Warna/techno.png
+  artifactKey: Guid(fe75fbb9772b68542bbdf90127b5494c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/Warna/techno.png using Guid(fe75fbb9772b68542bbdf90127b5494c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9bf7cc32a70aa50b1d0128a75125af29') in 0.0687498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/UI/Warna/upload_aoi.png
+  artifactKey: Guid(de8f84633ecb7354ab91760e70bf1bde) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/Warna/upload_aoi.png using Guid(de8f84633ecb7354ab91760e70bf1bde) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b7ebc41741283c7e0c547e3d7c5ae03b') in 0.0385443 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/UI/Warna/close_roi.png
+  artifactKey: Guid(77081b4b942782f4c99310cb5031d749) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/Warna/close_roi.png using Guid(77081b4b942782f4c99310cb5031d749) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '244068d1bfbeb08cc3f894b074d14141') in 0.0403659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/UI/Warna/profile-icon.jpg
+  artifactKey: Guid(7513d49a569f9fa4b88481ba636366b1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/Warna/profile-icon.jpg using Guid(7513d49a569f9fa4b88481ba636366b1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '23bc7aa8efa293c2c0bd435af6de7cd6') in 0.0373086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/UI/Warna/designer.png
+  artifactKey: Guid(b0f081e6571a99a4eb72a24cbd0038a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/Warna/designer.png using Guid(b0f081e6571a99a4eb72a24cbd0038a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7055d46bd6fd4410f93017c91ddd9149') in 0.0467274 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/UI/Warna/benchmarking.png
+  artifactKey: Guid(37c036cd5c96edc45a3869d4e4dd352a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/Warna/benchmarking.png using Guid(37c036cd5c96edc45a3869d4e4dd352a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'de1b3ee69c08e73858bc4a7d0cc408fb') in 0.0549846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/UI/Warna/map-legend.png
+  artifactKey: Guid(bc563ad822debac42b3dcb4854c9ce3c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/Warna/map-legend.png using Guid(bc563ad822debac42b3dcb4854c9ce3c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ceb0af17a51ee9c6183ad1e9f1200f52') in 0.0479406 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/UI/Warna/calculator.png
+  artifactKey: Guid(4cc91837e6164e04c98ee2c2763bf28a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/Warna/calculator.png using Guid(4cc91837e6164e04c98ee2c2763bf28a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '441171fd98427b13066c305b2a6898b3') in 0.0360593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/UI/Warna/pos_data_viewer.png
+  artifactKey: Guid(fb1e02a9dd053ca42a8ea8adf034de6a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/Warna/pos_data_viewer.png using Guid(fb1e02a9dd053ca42a8ea8adf034de6a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b11e54d8421c83ea3233c66a1902242b') in 0.0388774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/UI/Warna/cdnlogo.com_mastercard.svg
+  artifactKey: Guid(3caa712b852624941ac95407c62b50da) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/Warna/cdnlogo.com_mastercard.svg using Guid(3caa712b852624941ac95407c62b50da) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e97f15672a405fc48fb18b81f9398755') in 0.0219572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/UI/Warna/play.png
+  artifactKey: Guid(4af2f214da171384c9028b4cd40ecae3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/Warna/play.png using Guid(4af2f214da171384c9028b4cd40ecae3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'de835eacd69a6c8e15f5383df8767e5f') in 0.0390767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/UI/Warna/adsadwd.png
+  artifactKey: Guid(7e0ec980e215edf4d918fae35bb0b2d0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/Warna/adsadwd.png using Guid(7e0ec980e215edf4d918fae35bb0b2d0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6d1f35863a60b001ff1959f32f165c34') in 0.0399124 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/UI/Warna/detection.png
+  artifactKey: Guid(2f3d3133796d4e540856ab71a23718d7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/Warna/detection.png using Guid(2f3d3133796d4e540856ab71a23718d7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e3511f2ed8bd0aaa335d400554f2e023') in 0.053422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/UI/Warna/open-source.png
+  artifactKey: Guid(fa22b53d76ddaac4a9ff53bdd18a7165) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/Warna/open-source.png using Guid(fa22b53d76ddaac4a9ff53bdd18a7165) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a8f4ab0cc1b82ec2667964d29345ca85') in 0.0394871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/UI/Warna/table.png
+  artifactKey: Guid(52b970f04f5a09d41bdb68014be5eb73) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/Warna/table.png using Guid(52b970f04f5a09d41bdb68014be5eb73) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fad572616f5e6c3c2b9d71034c02b190') in 0.0428337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/UI/Warna/resizewide.png
+  artifactKey: Guid(3ecc3175a557d7448a2f15eb4daf0184) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/Warna/resizewide.png using Guid(3ecc3175a557d7448a2f15eb4daf0184) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1d4c2ce89b7274b0e323a8e7593147b1') in 0.0875943 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/UI/Warna/planet-earth.png
+  artifactKey: Guid(d1627969d27728a46adf48c56a0184f0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/Warna/planet-earth.png using Guid(d1627969d27728a46adf48c56a0184f0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b6a87e3f10eb273b989d60a001c80ceb') in 0.0525023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/UI/Warna/result.png
+  artifactKey: Guid(a88c3b4e6dfb3aa4d91c005f55a36079) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/Warna/result.png using Guid(a88c3b4e6dfb3aa4d91c005f55a36079) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b2e4b2313d8842cf614716e81ac44ca9') in 0.0411042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/UI/Warna/informaation.png
+  artifactKey: Guid(a5edf3ae3fbf2674c8fc8f8bd65addcf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/Warna/informaation.png using Guid(a5edf3ae3fbf2674c8fc8f8bd65addcf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'da5a7b589a074ffb31ee6170e3314304') in 0.0390155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/UI/Warna/search.png
+  artifactKey: Guid(f48dfa62e08536e4e885a2a73bed4d82) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/Warna/search.png using Guid(f48dfa62e08536e4e885a2a73bed4d82) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9a7a437b4344bf2bb1a0ef6ce72e0403') in 0.0369009 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/UI/Warna/autoplay.png
+  artifactKey: Guid(72a494a1c3d261644b5fa0e756422223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Warna/autoplay.png using Guid(72a494a1c3d261644b5fa0e756422223) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9464fbd4f3e1e89e26f373850ea41798') in 0.059292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/UI/Warna/ppk_processing.png
+  artifactKey: Guid(e47e3659ca036f74a956eb5b3b17afbb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/Warna/ppk_processing.png using Guid(e47e3659ca036f74a956eb5b3b17afbb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8483dd17c26fb657a63b5a0e1904bee1') in 0.0566564 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/UI/Warna/rinex_converter.png
+  artifactKey: Guid(b2bb9ddb2a765e94db6f3d18dbc02182) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/Warna/rinex_converter.png using Guid(b2bb9ddb2a765e94db6f3d18dbc02182) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '128e4c506ac218c2f5cbc2fb81c466ae') in 0.0367176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/UI/Warna/draw_point.png
+  artifactKey: Guid(38fd5c247c3100b4bbdf5236056b3dc7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/Warna/draw_point.png using Guid(38fd5c247c3100b4bbdf5236056b3dc7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2f5b99eee346ab2311503fe78fadde70') in 0.0433057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/UI/Warna/static_processing.png
+  artifactKey: Guid(ada2129e330aff44091fab0021265ba3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/Warna/static_processing.png using Guid(ada2129e330aff44091fab0021265ba3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c806a6b78ee40637078f4f9761ea1b24') in 0.0424669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/UI/Warna/add.png
+  artifactKey: Guid(4a4b204814bb564429c6e4d13e8b17cd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/Warna/add.png using Guid(4a4b204814bb564429c6e4d13e8b17cd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ff206df225feb326c555595b131a178c') in 0.0477911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/UI/Warna/rinex_converter.png
+  artifactKey: Guid(b2bb9ddb2a765e94db6f3d18dbc02182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Warna/rinex_converter.png using Guid(b2bb9ddb2a765e94db6f3d18dbc02182) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'affcabc8dc24bea089e11118e94a51e0') in 0.0361031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/UI/Warna/scissors.png
+  artifactKey: Guid(61bc5d0e9e6927c4fa8f4f3a57274e94) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/Warna/scissors.png using Guid(61bc5d0e9e6927c4fa8f4f3a57274e94) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9ef4864c487e9c5a283b3f7c2a882fea') in 0.0474714 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/UI/Warna/printer.png
+  artifactKey: Guid(862abcd87c22d6840b4addf6c369d262) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/Warna/printer.png using Guid(862abcd87c22d6840b4addf6c369d262) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f1254c33da90037c198495c6bb393065') in 0.0381518 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/UI/Warna/more.png
+  artifactKey: Guid(297a08213083d454989da82a4e8e5775) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/Warna/more.png using Guid(297a08213083d454989da82a4e8e5775) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '644cc9de8e74c1eb5e6db0bffae6f958') in 0.0397738 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/UI/Warna/detection.png
+  artifactKey: Guid(2f3d3133796d4e540856ab71a23718d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Warna/detection.png using Guid(2f3d3133796d4e540856ab71a23718d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8da56ad42f50a702f57e6807fe7947f2') in 0.0412371 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/UI/Warna/itsensing_icon_white_logo_vector.svg
+  artifactKey: Guid(d97bd864ccec215468ce2c5b77e97ce9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/Warna/itsensing_icon_white_logo_vector.svg using Guid(d97bd864ccec215468ce2c5b77e97ce9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1dd20fce7179eb4d3d62508138e07833') in 0.0210495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/UI/Warna/paint-palette.png
+  artifactKey: Guid(e5d394f7f64a68240a0a79beb651d277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Warna/paint-palette.png using Guid(e5d394f7f64a68240a0a79beb651d277) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76c0d0a99d108298f80c9664da34b3d6') in 0.0294584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/UI/Warna/draw_point.png
+  artifactKey: Guid(38fd5c247c3100b4bbdf5236056b3dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Warna/draw_point.png using Guid(38fd5c247c3100b4bbdf5236056b3dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76e52eaf19e2ae950889ea7a5063130b') in 0.0292419 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/UI/Warna/itsensing_icon_white_logo.png
+  artifactKey: Guid(3762caa845750e140a0df06fb790222f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Warna/itsensing_icon_white_logo.png using Guid(3762caa845750e140a0df06fb790222f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'afd3291773c23f5d82e1d4c50760a04f') in 0.0429247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/UI/Warna/data-classification.png
+  artifactKey: Guid(bc3074d4136229e46895e2892be8ad04) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/Warna/data-classification.png using Guid(bc3074d4136229e46895e2892be8ad04) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8dea356a750755ea1230d8da6b3ed3c7') in 0.0439328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/UI/Warna/layers.png
+  artifactKey: Guid(be1ebcf4a63a0284da7d0d1f17217025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Warna/layers.png using Guid(be1ebcf4a63a0284da7d0d1f17217025) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5138d0427a08cb438da467ae45b1c58') in 0.0538751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/UI/Warna/dislocation.png
+  artifactKey: Guid(4db6e2ab42834dd44950ea75832a099a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/Warna/dislocation.png using Guid(4db6e2ab42834dd44950ea75832a099a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0f503a0dd7a43590b9d91e83165b6ee2') in 0.0547083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/UI/Warna/data-classification.png
+  artifactKey: Guid(bc3074d4136229e46895e2892be8ad04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Warna/data-classification.png using Guid(bc3074d4136229e46895e2892be8ad04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '593d63c69a79b726483f49f5d4160a78') in 0.0365569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.022347 seconds.
+  path: Assets/UI/satellite/error_calculation.png
+  artifactKey: Guid(5c8a9111a8a7f9c44994ed24854fff27) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/satellite/error_calculation.png using Guid(5c8a9111a8a7f9c44994ed24854fff27) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '522f2238d1f5f8f219a57c2fb87af924') in 0.0563861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/UI/satellite/ground_data.png
+  artifactKey: Guid(f086e8b7dbd1b1e4c8afc1dbcde880d6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/satellite/ground_data.png using Guid(f086e8b7dbd1b1e4c8afc1dbcde880d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3b132ac42b697d0c2eb5196f7a26a1c1') in 0.0452665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/UI/satellite/premium_data.png
+  artifactKey: Guid(0e4bb51a95a60844ba16ea5b24cb7b96) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/satellite/premium_data.png using Guid(0e4bb51a95a60844ba16ea5b24cb7b96) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '92045941b8f1a0d6f7159c0a50788ac5') in 0.0417083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/UI/satellite/raster_fusion.png
+  artifactKey: Guid(47a4b324c55fd4a4c8d57ce037c857d0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/satellite/raster_fusion.png using Guid(47a4b324c55fd4a4c8d57ce037c857d0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1f13d3b97edc49216ac2a33afabe2c4e') in 0.0483064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/UI/satellite/draw_line.png
+  artifactKey: Guid(65e7a7f8d40b80f4fb5e53ea14b664bf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/satellite/draw_line.png using Guid(65e7a7f8d40b80f4fb5e53ea14b664bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3e8f0282d4ef8393f62a3d6317fc18a5') in 0.046877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/UI/satellite/log.png
+  artifactKey: Guid(3c82024640041c04ea5414fce9d1fc99) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/satellite/log.png using Guid(3c82024640041c04ea5414fce9d1fc99) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8ece3c5592f921c7ddbb7847177e154d') in 0.0410036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/UI/satellite/raster_style.png
+  artifactKey: Guid(bb3d77224f24f2e4d8292039b9dac806) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/satellite/raster_style.png using Guid(bb3d77224f24f2e4d8292039b9dac806) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '732d18b6b7da3839c03cb4f6eb9c7260') in 0.0398952 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/UI/satellite/area_measure.png
+  artifactKey: Guid(6e82f2f7a1205444299826d0a4cc11e8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/satellite/area_measure.png using Guid(6e82f2f7a1205444299826d0a4cc11e8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9db114cb12e192811022e4b5276710c5') in 0.2269872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/UI/satellite/draw_aoi.png
+  artifactKey: Guid(a8bef3e93816b534e96cc44358015d5c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/satellite/draw_aoi.png using Guid(a8bef3e93816b534e96cc44358015d5c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cfc73f3c913583cffe3eb115c60adc3d') in 0.0700064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/UI/satellite/info.png
+  artifactKey: Guid(96b42e5b30ef509458827b6105019ac4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/satellite/info.png using Guid(96b42e5b30ef509458827b6105019ac4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6258bb0ee19f58d11a460a3a10d73668') in 0.0484824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/UI/satellite/classification.png
+  artifactKey: Guid(ac84e50e588249a4ea0a9a3c4f7b4d45) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/satellite/classification.png using Guid(ac84e50e588249a4ea0a9a3c4f7b4d45) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cb747850f4eb8916bbbeeb90322f1f39') in 0.0447583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/UI/device/gpr.png
+  artifactKey: Guid(bd9cc35a0f6074c41bb56a0181dc4eed) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/device/gpr.png using Guid(bd9cc35a0f6074c41bb56a0181dc4eed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '36494631ba623435887e73634c07c54b') in 0.0433953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/UI/device
+  artifactKey: Guid(e98e529e4b61c094d911a109d60bbbde) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/device using Guid(e98e529e4b61c094d911a109d60bbbde) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd14b7ca02794334265433721bd0a8a52') in 0.018527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/UI/device/bathymetry.png
+  artifactKey: Guid(c9bde5b62a2822e43bc61923c5355079) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/device/bathymetry.png using Guid(c9bde5b62a2822e43bc61923c5355079) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0ef48468d268dc0e845e17ef4562dbbc') in 0.0356514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/UI/satellite/3d_view.png
+  artifactKey: Guid(96811332b0d29d641af75b44cde66e43) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/satellite/3d_view.png using Guid(96811332b0d29d641af75b44cde66e43) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '62b5762de3a9579f6c41acda14b0106e') in 0.0596283 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/UI/satellite/distance_measurement.png
+  artifactKey: Guid(34c98d072eb84fc458d203b858b81fba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/satellite/distance_measurement.png using Guid(34c98d072eb84fc458d203b858b81fba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2cc2ac317121b785221cc055b7e4be60') in 0.0369702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/UI/device/low-tide.png
+  artifactKey: Guid(d8eaedb6d5a6ca24099a9e7fc074492b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/device/low-tide.png using Guid(d8eaedb6d5a6ca24099a9e7fc074492b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '48eb96fb6a0d0734de44ec4aa496f53a') in 0.1083333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UI/satellite/spectral_profile.png
+  artifactKey: Guid(ac8c7f52574db0f4da41fe6d5b43c293) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/satellite/spectral_profile.png using Guid(ac8c7f52574db0f4da41fe6d5b43c293) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8e1e9a456ac42259c9e27ba73e378389') in 0.0382353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/UI/device/geodetic.png
+  artifactKey: Guid(3d0a5b60050b11d4ca3257af519efc7b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/device/geodetic.png using Guid(3d0a5b60050b11d4ca3257af519efc7b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6b18dd3962b48c680656ae326ed87099') in 0.041993 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/UI/satellite/upload_raster.png
+  artifactKey: Guid(c80d4b633f3fbe74ab94a025d6175f0e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/satellite/upload_raster.png using Guid(c80d4b633f3fbe74ab94a025d6175f0e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b1c4119e3b2f23391270813f6841b71d') in 0.0390699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/UI/satellite/print.png
+  artifactKey: Guid(41c0cad9685cd0143804e6959af4a441) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UI/satellite/print.png using Guid(41c0cad9685cd0143804e6959af4a441) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '17bdff9e61678bb3cdc6adb477a479fb') in 0.0426577 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
